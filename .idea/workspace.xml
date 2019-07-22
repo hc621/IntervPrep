@@ -1,15 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="178175d1-5bec-4dad-8c0d-fad621b831f3" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="c59f172c-eaf4-4a04-b87e-87c200438adb" name="Default Changelist" comment="" />
+>>>>>>> 6266646adae3af6713f4a3589b00e96d4cb4c432
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+=======
+  <component name="FUSProjectUsageTrigger">
+    <session id="-540157093">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="34" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+>>>>>>> 6266646adae3af6713f4a3589b00e96d4cb4c432
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/AddBinary.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -20,6 +59,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/LeetCode/MaxStack.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -35,10 +75,15 @@
               <caret column="3" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
+=======
+        <entry file="file://$PROJECT_DIR$/LeetCode/Arbitrary Shopping.py">
+          <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> 6266646adae3af6713f4a3589b00e96d4cb4c432
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -71,13 +116,31 @@
     <option name="y" value="42" />
     <option name="width" value="1936" />
     <option name="height" value="1092" />
+=======
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="HongChen" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="425" />
+    <option name="y" value="55" />
+    <option name="width" value="2029" />
+    <option name="height" value="1250" />
+>>>>>>> 6266646adae3af6713f4a3589b00e96d4cb4c432
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> 6266646adae3af6713f4a3589b00e96d4cb4c432
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,6 +157,7 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -107,6 +171,17 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HCHEN\PycharmProjects\IntervPrep" />
+=======
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Github\IntervPrep\LeetCode" />
+>>>>>>> 6266646adae3af6713f4a3589b00e96d4cb4c432
     </key>
   </component>
   <component name="RunDashboard">
@@ -126,6 +201,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="178175d1-5bec-4dad-8c0d-fad621b831f3" name="Default Changelist" comment="" />
       <created>1561062820237</created>
       <option name="number" value="Default" />
@@ -169,6 +245,27 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+=======
+      <changelist id="c59f172c-eaf4-4a04-b87e-87c200438adb" name="Default Changelist" comment="" />
+      <created>1561306502641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561306502641</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="340" y="44" width="1623" height="1000" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968474" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+>>>>>>> 6266646adae3af6713f4a3589b00e96d4cb4c432
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -176,18 +273,30 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+=======
+>>>>>>> 6266646adae3af6713f4a3589b00e96d4cb4c432
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+<<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="leetcode questions" />
     <option name="LAST_COMMIT_MESSAGE" value="leetcode questions" />
+=======
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding local windows codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding local windows codes" />
+>>>>>>> 6266646adae3af6713f4a3589b00e96d4cb4c432
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LeetCode/AddBinary.py">
@@ -197,6 +306,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/LeetCode/License Key Formatting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -210,6 +320,10 @@
           <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/LeetCode/Arbitrary Shopping.py">
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> 6266646adae3af6713f4a3589b00e96d4cb4c432
     </entry>
   </component>
 </project>
