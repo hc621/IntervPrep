@@ -148,7 +148,7 @@ class Bank():  # Let's create a bank, building ATMs
     def create_atm(self):
         while not self.crisis:
             yield "$100"
-
+'''
 hsbc = Bank()  # When everything's ok the ATM gives you as much as you want
 corner_street_atm = hsbc.create_atm
 print(next(corner_street_atm))
@@ -163,7 +163,7 @@ print(next(wall_street_atm))
 brand_new_atm = hsbc.create_atm
 for cash in brand_new_atm:
     print(cash)
-
+'''
 ###################################################
 # 4.  single underscore and double underscore (__init__, _foo_)
 ###################################################
@@ -203,7 +203,43 @@ class MyClass():
 # 5. *args and **kwargs
 ###################################################
 
+'''
+if you are not sure how many parameters you will pass into the function, use *arg
+if you have not yet decide the name of the parameters passing into the function, use **kwargs 
 
+'''
+
+
+def print_everything(*args):
+    for count, thing in enumerate(args):
+        print('{0}. {1}'.format(count, thing))
+
+
+def table_things(**kwargs):
+    for name, value in kwargs.items():
+        print('{0} = {1}'.format(name, value))
+
+print('####')
+print("example of *arg")
+print_everything('apple', 'banana', 'cabbage')
+print('####')
+print("example of **kwargs")
+table_things(apple = 'fruit', cabbage = 'vegetable')
+'''
+you can mix the *arg amd **kwargs with other named parameters , but named parameters should placed in front of *arg or **kwargs
+e.g  def table_things(titlestring, **kwargs)
+
+*arg and **kwargs can exist at same time, but *arg should go before **kwargs
+'''
+
+### when you call function, you can use * or ** as well
+print('####')
+print(' use * and ** in calling function')
+def print_three_things(a, b, c):
+    print('a = {0}, b = {1}, c = {2}'.format(a,b,c))
+
+mylist = ['aardvark', 'baboon', 'cat']
+print_three_things(*mylist)
 
 
 ###################################################
