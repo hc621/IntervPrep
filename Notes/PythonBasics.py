@@ -156,23 +156,58 @@ print(next(corner_street_atm))
 print([next(corner_street_atm) for cash in range(5)])
 hsbc.crisis = True
 print(next(corner_street_atm))
-wall_street_atm = hsbc.create_atm()
+wall_street_atm = hsbc.create_atm
 print(next(wall_street_atm))
 hsbc.crisis = False
 print(next(wall_street_atm))
-brand_new_atm = hsbc.create_atm()
+brand_new_atm = hsbc.create_atm
 for cash in brand_new_atm:
     print(cash)
 
 ###################################################
-# 4. *arg and **kwag
+# 4.  single underscore and double underscore (__init__, _foo_)
+###################################################
+'''
+!!*** single underscore prefix  ------ private variable !weak internal use
+in a package/module, variables/functions start with the single underscore are recognized as private variables/functions
+you cannot load the variables / functions using 'from a_module import * '
+if you load the module with 'import a_module', you can still visit the tartget with a_module._some_var
+
+!!*** single underscore suffix  ---- used for differentiate the variable from python key word
+if we need a variable named 'class', which is a key word in python ,we can call it 'class_'
+it is one of the name conventions recommended by python
+
+!!*** double underscore prefix  ---- name mangling, 
+if we have class of 'Test' which has variable '__x'
+when you call self-reflection dir(Test), you will see '_Test__x'
+This is to avoid name conflict among parental class and child class, this require no suffix 
+
+This mangling is done without regard to the syntactic position of the identifier, so it can be used to define 
+class-private instance and class variables, methods, variables stored in globals, and even variables stored in 
+instances. private to this class on instances of other classes
+
+
+!!*** single underscore prefix & suffix  ---- python defined function
+e.g. __init__, __del__,__add__,__file__,__name__
+
+
+'''
+# example
+class MyClass():
+    def __init__(self):
+        self.__superprivate = "Hello"
+        self._semiprivate = ", world!"
+
+
+###################################################
+# 5. *args and **kwargs
 ###################################################
 
 
 
 
 ###################################################
-# 5.
+# 6.
 ###################################################
 
 
