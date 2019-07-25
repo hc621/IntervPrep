@@ -243,22 +243,135 @@ print_three_things(*mylist)
 
 
 ###################################################
-# 6.
+# 6. function decorator
+###################################################
+ ## https://stackoverflow.com/questions/739654/how-to-make-a-chain-of-function-decorators
+
+
+'''
+To understand decorators, you must first understand that functions are objects in Python. 
+function can be assigned to a new variable, the new name can still access to the function if the old name is deleted 
+
+function can be define inside of the scope of another function, which you dont have access outside.
+
+therefore, function can another function as parameter or return another function as result.
+Futher to that, a function can work as a wrapper or decorators, which allow you to execute code before or after the 
+target function without modifying it.
+
+'''
+
+print("    ")
+print("function decorator")
+def bread(func):
+    def wrapper():
+        print("</''''''\>")
+        func()
+        print("<\______/>")
+    return wrapper
+
+def ingredients(func):
+    def wrapper():
+        print("#tomatoes#")
+        func()
+        print("~salad~")
+    return wrapper
+
+
+def ham(food="--ham--"):
+    print(food)
+
+# Handcrafted Decorator
+#new_sandwich = bread(ingredients(ham))
+#new_sandwich()
+
+# the order dec
+@bread
+@ingredients
+def ham(food: object = "--ham--") -> object:
+    print(food)
+
+
+sandwich = ham()
+
+
+sandwich()
+
+
+'''
+decorator can take arguments that the underlying function takes
+
+decorator can decorating methods that defined the class, which take 'self' as first argument
+
+
+'''
+
+print("decorator for methods")
+
+
+def method_friendly_decorator(method_to_decorate):
+    def wrapper(self, lie):
+        lie = lie - 3 # very friendly, decrease age even more :-)
+        return method_to_decorate(self, lie)
+    return wrapper
+
+
+class Lucy(object):
+    def __init__(self):
+        self.age = 32
+
+    @method_friendly_decorator
+    def sayYourAge(self, lie):
+        print("I am {0}, what did you think?".format(self.age + lie))
+
+
+l = Lucy()
+l.sayYourAge(-3)
+
+###################################################
+# 7. new-style class and old-style class
 ###################################################
 
+'''
+new-style class are introduced to Python 2.2, python 3 only have new style classes
+The concept of (old-style) class is unrelated to the concept of type: if x is an instance of an old-style class, 
+then x.__class__ designates the class of x, but type(x) is always <type 'instance'>.
+
+If x is an instance of a new-style class, then type(x) is typically the same as x.__class__ 
+(although this is not guaranteed – a new-style class instance is permitted to override the value returned for x.__class)
+'''
 
 
+# Old style class
+class OldStyleClass:
+    pass
+# New style class
+class NewStyleClass(object):
+    pass
+
+
+# python method resolution order
+# https://www.geeksforgeeks.org/method-resolution-order-in-python-inheritance/
 class A():
     def foo1(self):
         print("A")
+
+
 class B(A):
     def foo2(self):
-        pass
+        print("B")
+
+
 class C(A):
     def foo1(self):
         print("C")
+
+
 class D(B, C):
     pass
+
+
+b=B()
+b.foo2()
 
 d = D()
 d.foo1()
